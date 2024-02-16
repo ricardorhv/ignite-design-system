@@ -3,9 +3,6 @@ import { themes } from '@storybook/theming'
 
 const preview = {
   parameters: {
-    docs: {
-      themes: themes.dark
-    },
     actions: { argTypesRegex: "^on[A-Z].*" },
     controls: {
       matchers: {
@@ -13,6 +10,7 @@ const preview = {
         date: /Date$/i,
       },
     },
+    theme: themes.dark, 
   },
 };
 
