@@ -20,6 +20,7 @@
     "@storybook/manager-api": "^7.6.16",
     "@storybook/react": "^7.6.16",
     "@storybook/react-vite": "^7.6.16",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^7.6.16",
     "@storybook/theming": "^7.6.16",
     "@vitejs/plugin-react": "^4.2.1",
