@@ -8,6 +8,14 @@ export default {
     src: 'https://github.com/ricardorhv.png',
     alt: 'Ricardo Vinciguerra',
   },
+  argTypes: {
+    src: {
+      description: 'Caminho da imagem',
+    },
+    alt: {
+      description: 'Texto alternativo',
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
