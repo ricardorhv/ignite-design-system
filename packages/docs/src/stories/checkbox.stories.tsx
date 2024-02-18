@@ -4,7 +4,9 @@ import { StoryObj, Meta } from '@storybook/react'
 export default {
   title: 'Form/Checkbox',
   component: Checkbox,
-  args: {},
+  args: {
+    'aria-label': 'Checkbox to accept terms of use',
+  },
   decorators: [
     (Story) => {
       return (
