@@ -11,6 +11,9 @@ export default {
   argTypes: {
     src: {
       description: 'Caminho da imagem',
+      control: {
+        type: 'text',
+      },
     },
     alt: {
       description: 'Texto alternativo',
