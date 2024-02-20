@@ -20,8 +20,17 @@ export default {
       },
     },
     open: {
+      description: 'Controla se o tooltip é mostrado ou não.',
       control: {
         type: 'boolean',
+      },
+    },
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'O componente tooltip mostra o conteúdo quando o usuário passar o mouse sobre o elemento.',
       },
     },
   },
