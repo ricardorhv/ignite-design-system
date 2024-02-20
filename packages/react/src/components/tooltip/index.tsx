@@ -1,0 +1,30 @@
+import {
+  Provider as TooltipProvider,
+  Root as TooltipRoot,
+  Portal as TooltipPortal,
+  Trigger as TooltipTrigger,
+} from '@radix-ui/react-tooltip'
+import { TooltipArrow, TooltipContainer } from './styles'
+import { ComponentProps } from 'react'
+
+export interface TooltipProps extends ComponentProps<typeof TooltipRoot> {
+  contentValue: string
+}
+
+export function Tooltip({ contentValue, children, open }: TooltipProps) {
+  return (
+    <TooltipProvider delayDuration={500}>
+      <TooltipRoot open={open}>
+        <TooltipTrigger asChild>{children}</TooltipTrigger>
+        <TooltipPortal>
+          <TooltipContainer>
+            <span>{contentValue}</span>
+            <TooltipArrow />
+          </TooltipContainer>
+        </TooltipPortal>
+      </TooltipRoot>
+    </TooltipProvider>
+  )
+}
+
+Tooltip.displayName = 'Tooltip'
