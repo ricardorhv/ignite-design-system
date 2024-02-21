@@ -9,12 +9,13 @@ import { ComponentProps } from 'react'
 
 export interface TooltipProps extends ComponentProps<typeof TooltipRoot> {
   contentValue: string
+  isOpened: boolean
 }
 
-export function Tooltip({ contentValue, children, open }: TooltipProps) {
+export function Tooltip({ contentValue, children, isOpened }: TooltipProps) {
   return (
     <TooltipProvider delayDuration={500}>
-      <TooltipRoot open={open}>
+      <TooltipRoot open={isOpened ? true : undefined}>
         <TooltipTrigger asChild>{children}</TooltipTrigger>
         <TooltipPortal>
           <TooltipContainer>

@@ -11,7 +11,7 @@ export default {
         <Text>21</Text>
       </Box>
     ),
-    open: false,
+    isOpened: undefined,
   },
   argTypes: {
     children: {
@@ -19,7 +19,7 @@ export default {
         type: 'null',
       },
     },
-    open: {
+    isOpened: {
       description: 'Controla se o tooltip é mostrado ou não.',
       control: {
         type: 'boolean',
@@ -40,6 +40,6 @@ export const Primary: StoryObj<TooltipProps> = {}
 
 export const Opened: StoryObj<TooltipProps> = {
   args: {
-    open: true,
+    isOpened: true,
   },
 }
