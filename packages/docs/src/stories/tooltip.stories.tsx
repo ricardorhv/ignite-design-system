@@ -1,4 +1,4 @@
-import { Box, Text, Tooltip, TooltipProps } from '@ignite-ui/react'
+import { Box, Text, Tooltip, TooltipProps } from '@ricardorhv-ignite-ui/react'
 import { StoryObj, Meta } from '@storybook/react'
 
 export default {
