@@ -8,3 +8,5 @@ export * from './components/text-area'
 export * from './components/checkbox'
 export * from './components/multi-step'
 export * from './components/tooltip'
+
+export * from './styles'
