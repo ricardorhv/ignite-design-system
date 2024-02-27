@@ -1,5 +1,11 @@
 # @ricardorhv-ignite-ui/react
 
+## 2.1.1
+
+### Patch Changes
+
+- Delete .gitignore
+
 ## 2.1.0
 
 ### Minor Changes
