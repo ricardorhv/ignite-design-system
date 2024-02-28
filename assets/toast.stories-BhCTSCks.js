@@ -1,0 +1,5 @@
+import{j as p}from"./jsx-runtime-gfuiFmrk.js";import{c,d}from"./index-Cbi6-QOE.js";import"./index-B3ehnkiM.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./extends-CCbyfPlC.js";import"./index-DeIys0fC.js";const x={title:"Data Display/Toast",component:c,args:{title:"Agendamento realizado",description:"Quarta-feira, 23 de Outubro às 16h",children:p.jsx(d,{children:"Agendar"}),defaultOpen:!1},argTypes:{children:{description:"Componente trigger que irá abrir o Toast",control:{type:"null"}}}},r={},e={args:{defaultOpen:!0}};var t,a,o;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(o=(a=r.parameters)==null?void 0:a.docs)==null?void 0:o.source}}};var s,n,i;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {
+    defaultOpen: true
+  }
+}`,...(i=(n=e.parameters)==null?void 0:n.docs)==null?void 0:i.source}}};const y=["Primary","Opened"];export{e as Opened,r as Primary,y as __namedExportsOrder,x as default};
