@@ -1,5 +1,11 @@
 # @ricardorhv-ignite-ui/react
 
+## 2.1.2
+
+### Patch Changes
+
+- Add a new props in TextInput
+
 ## 2.1.1
 
 ### Patch Changes
