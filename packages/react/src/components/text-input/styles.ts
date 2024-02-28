@@ -8,6 +8,7 @@ export const TextInputContainer = styled('div', {
 
   display: 'flex',
   alignItems: 'center',
+  gap: '1px',
 
   variants: {
     size: {
@@ -55,6 +56,6 @@ export const Input = styled('input', {
   },
 
   '&::placeholder': {
-    color: '$gray400',
+    color: '$gray500',
   },
 })
